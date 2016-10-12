@@ -10,7 +10,7 @@ Maybe you need to narrow down a list of groomsmen (or just order them). Pick 3 t
 
 ## Show me
 
-You can see the Turing Sorter in action [Here](czechsmix.com/TuringSorter)
+You can see the Turing Sorter in action [Here](https://czechsmix.com/TuringSorter)
 
 ### Credits
 
