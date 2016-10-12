@@ -15,4 +15,5 @@ You can see the Turing Sorter in action [Here](https://czechsmix.com/TuringSorte
 ### Credits
 
 For DOM Manipulation, TuringSorter uses a minified [ICE](https://github.com/Doist/ICE)
+
 For CSS TuringSorter uses [Bootstrap](http://getbootstrap.com/) v3.3.6
