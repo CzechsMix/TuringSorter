@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+
+		<div class="container">
+			<h3 class="text-center">Turing Sorter</h3>
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+						<div class="form-group">
+							<label for="new_item">Add Item:</label>
+							<input type="text" id="new_item" class="form-control">
+						</div>
+						<button type="button" class="btn btn-primary" onclick="addItem()">Add</button>
+						<button type="button" class="btn btn-success" onclick="beginSort()">Begin Sort</button>
+						<button type="button" class="btn btn-danger pull-right" onclick="clearList()">Clear</button>
+				</div>
+			</div>
+
+			<div class="row margin-top-20">
+				<div class="col-md-2 col-md-offset-3">
+					<button id="left" class="btn btn-info" disabled="true" onclick="tsLeft()">Left</button>
+				</div>
+				<div class="col-md-2 col-md-offset-2">
+					<button id="right" class="btn btn-info" disabled="true" onclick="tsRight()">Right</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="row margin-top-20">
+			<div class="col-md-6 col-md-offset-3">
+				<table id="item_table" class="table table-condensed">
+					<thead>
+					<tr>
+						<th>Rank</th>
+						<th>Item</th>
+					</tr>
+					</thead>
+					<tbody id="item_table_body">
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<!-- Link dependcies for bootstrap and load ice.js -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/main.css">
+		<script src="js/ice.min.js"></script>
+		<script src="js/turingSort.js"></script>
+	</body>
+</html>
